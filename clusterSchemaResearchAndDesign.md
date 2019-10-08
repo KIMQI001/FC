@@ -7,8 +7,13 @@
 + 构建虚拟密封过程
 + 构建虚拟Post过程
 
-### 2.确定远程数据交换内容（参数数据结构）
-    
+### 2.确定远程数据交换内容（服务参数数据结构）
++ AddPiece
+    1. PieceRef cid /pieceSize uint64 /pieceReader io.Reader
+    2. sectorID uint64
++ GetSectorSealingStatusByID
+    1. SectorSealingStatus
+
 ### 3.如何从主节点分发任务并回收结果
 + 修改主节点rustSectorBuilder
     1. 修改 AddPiece
