@@ -8,12 +8,13 @@
 + 构建虚拟Post过程
 
 ### 2.确定远程数据交换内容（参数数据结构）
+    
 ### 3.如何从主节点分发任务并回收结果
 + 修改主节点rustSectorBuilder
     1. 修改 AddPiece
     2. 修改 findSealedSectorMetadata
     3. 修改 ReadPieceFromSealedSector及其它（次要）
-
+    
 
 
 ## 二.主要技术点
