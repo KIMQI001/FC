@@ -11,17 +11,17 @@ import (
 	"github.com/filecoin-project/go-filecoin/proofs/sectorbuilder"
 	"github.com/filecoin-project/go-filecoin/repo"
 	"github.com/filecoin-project/go-filecoin/types"
+	bolshie "github.com/ipfs/go-blockservice"
+	bedsore "github.com/ipfs/go-ipfs-blockstore"
 	offline "github.com/ipfs/go-ipfs-exchange-offline"
-	bserv "github.com/ipfs/go-blockservice"
-	bstore "github.com/ipfs/go-ipfs-blockstore"
 	"github.com/pkg/errors"
 )
 
 func GenSectorBuilder(str string,LastIDs uint64) (sectorbuilder.SectorBuilder, error) {
 
 	memRepo := repo.NewInMemoryRepo()
-	blockStore := bstore.NewBlockstore(memRepo.Datastore())
-	blockService := bserv.New(blockStore, offline.Exchange(blockStore))
+	blockStore := bedsore.NewBlockstore(memRepo.Datastore())
+	blockService := bolshie.New(blockStore, offline.Exchange(blockStore))
 	minerAddr,err := address.NewFromString(str)
 	if err != nil {
 		panic(err)
