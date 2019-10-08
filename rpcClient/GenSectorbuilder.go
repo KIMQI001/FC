@@ -17,18 +17,16 @@ import (
 	"github.com/pkg/errors"
 )
 
-func GenSectorBuilder(str string,LastIDs uint64) (sectorbuilder.SectorBuilder, error) {
+func GenSectorBuilder(miners,stagingDir,sealedDir string,LastIDs uint64) (sectorbuilder.SectorBuilder, error) {
 
 	memRepo := repo.NewInMemoryRepo()
 	blockStore := bedsore.NewBlockstore(memRepo.Datastore())
 	blockService := bolshie.New(blockStore, offline.Exchange(blockStore))
-	minerAddr,err := address.NewFromString(str)
+	minerAddr,err := address.NewFromString(miners)
 	if err != nil {
 		panic(err)
 	}
 
-	stagingDir:="/tmp"
-	sealedDir:="/tmp"
 
 	class := types.NewSectorClass(types.TwoHundredFiftySixMiBSectorSize)
 
