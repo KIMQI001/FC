@@ -14,7 +14,7 @@
     1. 修改 AddPiece
     2. 修改 findSealedSectorMetadata
     3. 修改 ReadPieceFromSealedSector及其它（次要）
-    
+![Image text](https://github.com/KIMQI001/FC/blob/master/img/RpcRep.png)
 
 
 ## 二.主要技术点
