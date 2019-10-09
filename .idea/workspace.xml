@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb44f3c4-cf6e-4e20-a51d-b315fda096b5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/clusterSchemaResearchAndDesign.md" beforeDir="false" afterPath="$PROJECT_DIR$/clusterSchemaResearchAndDesign.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpcClient/mySectorBuilder/rpcAddpiece.go" beforeDir="false" afterPath="$PROJECT_DIR$/rpcClient/mySectorBuilder/rpcAddpiece.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpcClient/mySectorBuilder/rpcPost.go" beforeDir="false" afterPath="$PROJECT_DIR$/rpcClient/mySectorBuilder/rpcPost.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoTools/tools/autoRequestFIL.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoTools/tools/autoTrade.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +22,24 @@
                 <caret line="10" selection-start-line="10" selection-end-line="11" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/autoTools/tools/autoTrade.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/autoTools/tools/autoRequestFIL.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -51,19 +69,11 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rpcClient/mySectorBuilder/TestAddpiece.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rpcClient/mySectorBuilder/TestPost.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        <entry file="file://$PROJECT_DIR$/rpcServer/serverSchema.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -73,15 +83,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="456">
               <caret line="34" column="34" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rpcServer/rpcPost.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="13" selection-start-line="2" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -100,18 +101,18 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="133">
-                <caret line="7" column="19" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="19" />
+                <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rpcClient/mySectorBuilder/rpcPost.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="133">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -149,6 +150,9 @@
         <option value="$PROJECT_DIR$/clusterSchemaResearchAndDesign.md" />
         <option value="$PROJECT_DIR$/rpcClient/mySectorBuilder/rpcPost.go" />
         <option value="$PROJECT_DIR$/rpcClient/mySectorBuilder/rpcAddpiece.go" />
+        <option value="$PROJECT_DIR$/autoTrade/autoTrade.go" />
+        <option value="$PROJECT_DIR$/autoTrade/tools/autoTrade.go" />
+        <option value="$PROJECT_DIR$/autoTrade/tools/autoRequestFIL.go" />
       </list>
     </option>
   </component>
@@ -173,6 +177,17 @@
             <path>
               <item name="FC" type="b2602c69:ProjectViewProjectNode" />
               <item name="FC" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FC" type="462c0819:PsiDirectoryNode" />
+              <item name="autoTools" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FC" type="462c0819:PsiDirectoryNode" />
+              <item name="autoTools" type="462c0819:PsiDirectoryNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FC" type="b2602c69:ProjectViewProjectNode" />
@@ -221,6 +236,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/autoTrade/tools" />
       <recent name="$PROJECT_DIR$/rpcClient/mySectorBuilder" />
       <recent name="$PROJECT_DIR$/rpcClient" />
     </key>
@@ -239,7 +255,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="314" y="31" width="1253" height="1049" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26677713" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -298,13 +313,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rpcClient/mySectorBuilder/GenSectorbuilder.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="34" column="34" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rpcClient/mySectorBuilder/TestAddpiece.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -319,13 +327,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gpu.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="18" selection-start-column="18" selection-end-column="18" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/rpcServer/rpcPost.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -333,7 +338,46 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="133">
-            <caret line="7" column="19" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="19" />
+            <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpcClient/mySectorBuilder/GenSectorbuilder.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="34" column="34" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpcClient/mySectorBuilder/rpcPost.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpcClient/mySectorBuilder/rpcAddpiece.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rpcServer/serverSchema.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gpu.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="18" selection-start-column="18" selection-end-column="18" />
           </first_editor>
           <second_editor />
         </state>
@@ -359,24 +403,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rpcServer/rpcPost.go">
+    <entry file="file://$PROJECT_DIR$/autoTools/tools/autoRequestFIL.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="76">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rpcClient/mySectorBuilder/rpcAddpiece.go">
+    <entry file="file://$PROJECT_DIR$/autoTools/tools/autoTrade.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rpcClient/mySectorBuilder/rpcPost.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="95">
+          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
         </state>
       </provider>
     </entry>
