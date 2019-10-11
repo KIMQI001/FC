@@ -13,6 +13,7 @@ package functions
 
 // 设置初始化数量和初始化配置参数
 func StartInitAndRuning(nums uint64,pos string)  {
+	// 判断if nums>0,--repodir='pos/.filecoin%d',nums
 
 }
 

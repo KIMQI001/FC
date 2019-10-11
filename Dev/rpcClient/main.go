@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/FC/FC/rpcClient/mySectorBuilder"
+	mySectorBuilder2 "github.com/FC/FC/Dev/rpcClient/mySectorBuilder"
 	"log"
 )
 
@@ -12,7 +12,7 @@ func main() {
 	miner:=""
 	dir:=""
 	lastId:=0
-	sb,err:=mySectorBuilder.GenSectorBuilder(miner,dir,dir, uint64(lastId))
+	sb,err:= mySectorBuilder2.GenSectorBuilder(miner,dir,dir, uint64(lastId))
 
 	if err != nil {
 		log.Fatalln("Generate SectorBuilder failed~~~!!!!")
@@ -20,8 +20,8 @@ func main() {
 	// SendBack a sb response
 
 	// rpc addPiece task listener
-	go mySectorBuilder.RpcAddPieceListener(sb)
+	go mySectorBuilder2.RpcAddPieceListener(sb)
 
 	// rpc Post task listener
-	go mySectorBuilder.RpcPostListener(sb)
+	go mySectorBuilder2.RpcPostListener(sb)
 }
