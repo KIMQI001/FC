@@ -2,33 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb44f3c4-cf6e-4e20-a51d-b315fda096b5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dev/PoSt.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reseach/PoSt.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dev/clusterSchemaResearchAndDesign.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reseach/clusterSchemaResearch.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ops/autoTools/tools/filcoinCmd.md" beforeDir="false" afterPath="$PROJECT_DIR$/Ops/autoTools/tools/filcoinCmd.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Deals_off_chain/AddingDealToSector.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/deals_off_chain/AddingDealToSector.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Deals_off_chain/BlockProduction.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/deals_off_chain/BlockProduction.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Deals_off_chain/BlockReception.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/deals_off_chain/BlockReception.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Deals_off_chain/BlockchainGroup.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/deals_off_chain/BlockchainGroup.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Deals_off_chain/ClientQuery.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/deals_off_chain/ClientQuery.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Deals_off_chain/ClockSubsystem.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/deals_off_chain/ClockSubsystem.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Deals_off_chain/FaultArbitration.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/deals_off_chain/FaultArbitration.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Deals_off_chain/MiningGroup.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/deals_off_chain/MiningGroup.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Deals_off_chain/RegisterStorageMiner.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/deals_off_chain/RegisterStorageMiner.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Deals_off_chain/RetrievalMakketSubsystem.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/deals_off_chain/RetrievalMakketSubsystem.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Deals_off_chain/SealingSector.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/deals_off_chain/SealingSector.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Deals_on_chain/BlockProduction.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/deals_on_chain/BlockProduction.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Deals_on_chain/BlockReception.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/deals_on_chain/BlockReception.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Deals_on_chain/BlockchainGroup.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/deals_on_chain/BlockchainGroup.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Deals_on_chain/ClientQuery.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/deals_on_chain/ClientQuery.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Deals_on_chain/ClockSubsystem.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/deals_on_chain/ClockSubsystem.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Deals_on_chain/Expired deals.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/deals_on_chain/Expired deals.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Deals_on_chain/MiningGroup.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/deals_on_chain/MiningGroup.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Deals_on_chain/RegisterStorgeMiner.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/deals_on_chain/RegisterStorgeMiner.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Deals_on_chain/SealingSector.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/deals_on_chain/SealingSector.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Deals_on_chain/Storage Fault.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/deals_on_chain/Storage Fault.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Deals_on_chain/StorageDealMake.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/deals_on_chain/StorageDealMake.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Deals_on_chain/StorageMakketSubsystem.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/deals_on_chain/StorageMarketSubsystem.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reseach/clusterSchemaResearch.md" beforeDir="false" afterPath="$PROJECT_DIR$/Reseach/clusterSchemaResearch.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,12 +12,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Reseach/clusterSchemaResearch.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="531">
-                <caret line="31" selection-start-line="31" selection-end-line="31" />
+              <first_editor relative-caret-position="95">
+                <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
               </first_editor>
               <second_editor />
             </state>
@@ -72,7 +46,7 @@
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/img/deals_on_chain/RegisterStorgeMiner.png">
           <provider selected="true" editor-type-id="images" />
         </entry>
@@ -93,7 +67,7 @@
         <entry file="file://$PROJECT_DIR$/Reseach/PoSt.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="441">
+              <first_editor relative-caret-position="551">
                 <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
               </first_editor>
               <second_editor />
@@ -189,6 +163,7 @@
         <option value="$PROJECT_DIR$/PoSt.md" />
         <option value="$PROJECT_DIR$/Deploy.md" />
         <option value="$PROJECT_DIR$/Ops/autoTools/tools/filcoinCmd.md" />
+        <option value="$PROJECT_DIR$/Reseach/clusterSchemaResearch.md" />
       </list>
     </option>
   </component>
@@ -213,6 +188,11 @@
             <path>
               <item name="FC" type="b2602c69:ProjectViewProjectNode" />
               <item name="FC" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FC" type="462c0819:PsiDirectoryNode" />
+              <item name="Reseach" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -264,6 +244,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15771998" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -278,7 +259,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3261339" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3261339" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -457,36 +438,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="228">
-            <caret line="12" column="19" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="19" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Reseach/PoSt.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="441">
-            <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Reseach/clusterSchemaResearch.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="531">
-            <caret line="31" selection-start-line="31" selection-end-line="31" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Purchasing/hardware.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -535,6 +486,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/img/deals_on_chain/RegisterStorgeMiner.png">
       <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="228">
+            <caret line="12" column="19" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="19" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Reseach/PoSt.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="551">
+            <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Reseach/clusterSchemaResearch.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="95">
+            <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
