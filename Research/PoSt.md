@@ -1,8 +1,11 @@
 ## 如何启动分发PoSt任务
 
 ### PoSt逻辑交互流程
++ 业务层逻辑（Go层）
 
++ 算法层逻辑（Rust层）
 ### 方案猜想一
+     // 业务层逻辑（Go层）
      + 主节点submitPost启动时
         1.主节点删除收集commits逻辑，只生成seed
         2.向子节点发送seed
@@ -17,6 +20,7 @@
         
         
 ### 方案猜想二
+    // 业务层逻辑（Go层）
     + 主节点submitPost启动时
         1.主节点收集commits并产生seed
         2.主节点不执行post算法
@@ -28,3 +32,12 @@
         1.拆分commits成不同的inputs
         2.合并Response
         
+### 方案猜想三
+    // 算法层逻辑（Rust层）
+    + 主节点submitPost启动时
+        1.完成cgo调用至Rust-PoSt
+        2.分拆成micro-server，调用并返回结果
+        
+    + 难点：
+        1.Rust-PoSt逻辑梳理
+        2.micro-server的拆分
