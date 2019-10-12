@@ -2,7 +2,25 @@
 
 ### PoSt逻辑交互流程
 + 业务层逻辑（Go层）
-
+    + 启动（OnNewHeaviestTipSet）
+        + 获得commits
+        + 收集inputs
+        + 获得ProvingWindow
+        + 确定没有在这个period提交过Post
+        + ProvingWindow+challengeDelayRounds<确保当前高度<provingWindowEnd
+        + miner.submitPost->sm.prover.CalculatePost(inputs)
+        + 
+    + 上链（minerActor.SubmitPost）
+        + 获取到当前链高度
+        + 计算 nextProvingPeriodEnd
+        + 判断是否未超时(当前高度<nextProvingPeriodEnd)
+        + 计算 provingWindowStart（intime版或late版）
+        + 判断当前高度是否在 provingWindowStart 之后
+        + 生成 ChallengeSeed
+        + 收集当前状态下 sectorInfos并sort化
+        + 构造verifyPostRequest
+        + 执行VerifyPoSt
+        + 改变state的Power，commits，provingSet，NextDoneSet
 + 算法层逻辑（Rust层）
 ### 方案猜想一
      // 业务层逻辑（Go层）
