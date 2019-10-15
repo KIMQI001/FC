@@ -1,6 +1,9 @@
 package testFuctions
 
 // 构建虚拟密封过程，来进行硬件测试
+
+// 使用方法：
+
 import (
 	"bytes"
 	"context"
@@ -10,14 +13,26 @@ import (
 	"github.com/filecoin-project/go-filecoin/proofs/sectorbuilder"
 	"github.com/filecoin-project/go-filecoin/proofs/verification"
 	"github.com/filecoin-project/go-filecoin/types"
+	go_sectorbuilder "github.com/filecoin-project/go-sectorbuilder"
 	"github.com/ipfs/go-cid"
 	dag "github.com/ipfs/go-merkledag"
 	"github.com/pkg/errors"
+	"golang.org/x/tools/go/ssa/interp/testdata/src/fmt"
 	"io"
 	"log"
+	"time"
 )
+//MaxTimeToSealASector represents the maximum amount of time the test should
+//wait for a sector to be sealed. Seal performance varies depending on the
+//computer, so we need to select a value which works for slow (CircleCI OSX
+//build containers) and fast (developer machines) alike.
+const MaxTimeToSealASector = time.Second * 360
 
-func TestAddPiece()  error{
+// MaxTimeToGenerateSectorPoSt represents the maximum amount of time the test
+// should wait for a proof-of-spacetime to be generated for a sector.
+const MaxTimeToGenerateSectorPoSt = time.Second * 360
+
+func TestAddpieceAndPost()  error{
 	miner:=""
 	dir:=""
 	lastId:=0
@@ -28,15 +43,27 @@ func TestAddPiece()  error{
 
 	inputBytes := RequireRandomBytes(types.TwoHundredFiftySixMiBSectorSize.Uint64())
 	ref, size, reader, err := CreateAddPieceArgs(inputBytes)
+	startAddPiece:=time.Now()
 	sectorID, err := sb.AddPiece(context.Background(), ref, size, reader)
 	if err!=nil{
 		return errors.Wrap(err,"addPiece failed~~~!!!")
 	}
+
+	//count add time
+	endAddPiece:=time.Now()
+	fmt.Sprintf("addPiece use %s",endAddPiece.Sub(startAddPiece).String())
+	timeout := time.After(MaxTimeToSealASector + MaxTimeToGenerateSectorPoSt)
+
 	select {
 	case val := <-sb.SectorSealResults():
 		if val.SealingResult.SectorID!=sectorID{
 			return errors.Wrap(err,"sectorID is not same~~~!!!")
 		}
+
+		// count seal time
+		endSeal:=time.Now()
+		fmt.Sprintf("sealSector use %s",endSeal.Sub(endAddPiece).String())
+
 		minerAddr,err := address.NewFromString(miner)
 		if err != nil {
 			return errors.Wrap(err,"gen miner addr failed~~~!!!")
@@ -57,7 +84,48 @@ func TestAddPiece()  error{
 		if sres.IsValid!=true{
 			return errors.New("verify is not valid~~!!")
 		}
+
+		// count verify seal time
+		endverifySeal:=time.Now()
+		fmt.Sprintf("sealSector use %s",endverifySeal.Sub(endSeal).String())
+
+		// TODO: This should be generates from some standard source of
+		// entropy, e.g. the blockchain
+		challengeSeed := types.PoStChallengeSeed{1, 2, 3}
+
+		sortedSectorInfo := go_sectorbuilder.NewSortedSectorInfo(go_sectorbuilder.SectorInfo{CommR: val.SealingResult.CommR})
+
+		// generate a proof-of-spacetime
+		gres, gerr := sb.GeneratePoSt(sectorbuilder.GeneratePoStRequest{
+			SortedSectorInfo: sortedSectorInfo,
+			ChallengeSeed:    challengeSeed,
+		})
+		if gerr!=nil{
+			return errors.Wrap(serr,"generatePost failed~~!!")
+		}
+
+		// verify the proof-of-spacetime
+		vres, verr := (&verification.RustVerifier{}).VerifyPoSt(verification.VerifyPoStRequest{
+			ChallengeSeed:    challengeSeed,
+			SortedSectorInfo: sortedSectorInfo,
+			Faults:           []uint64{},
+			Proof:            gres.Proof,
+			SectorSize:       types.TwoHundredFiftySixMiBSectorSize,
+		})
+		if verr!=nil{
+			return errors.Wrap(serr,"verify post failed~~!!")
+		}
+		if vres.IsValid!=true{
+			return errors.New("verify Post is not valid~~!!")
+		}
+
+		// count Post time
+		endPost:=time.Now()
+		fmt.Sprintf("sealSector use %s",endPost.Sub(endverifySeal).String())
+
 		return nil
+	case <-timeout:
+		return errors.New("timed out waiting for seal to complete")
 	}
 }
 

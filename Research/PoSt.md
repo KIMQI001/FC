@@ -9,7 +9,9 @@
         + 确定没有在这个period提交过Post
         + ProvingWindow+challengeDelayRounds<确保当前高度<provingWindowEnd
         + miner.submitPost->sm.prover.CalculatePost(inputs)
-        + 
+        + 计算（CalculatePost）
+            + gather Post request:seed,SortedSectorInfo
+            + GeneratePoSt
     + 上链（minerActor.SubmitPost）
         + 获取到当前链高度
         + 计算 nextProvingPeriodEnd
@@ -49,6 +51,9 @@
     + 难点：
         1.拆分commits成不同的inputs
         2.合并Response
+        
+    + 拆分位置
+        1.prover中的CalculatePoSt构造sectorInfos时
         
 ### 方案猜想三
     // 算法层逻辑（Rust层）
