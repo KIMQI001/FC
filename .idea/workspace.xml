@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb44f3c4-cf6e-4e20-a51d-b315fda096b5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Dev/localNet/localnetDeploy.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dev/localNet/statsDeploy.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ops/localNet/statsDeploy.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Research/actorAnalyse/miner.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/localNet/localnetDeploy.md" beforeDir="false" afterPath="$PROJECT_DIR$/Ops/localNet/localnetDeploy.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/localNet/statsDeploy.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ops/localNet/filecoin-network-stats/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Ops/localNet/filecoin-network-stats/backend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ops/localNet/filecoin-network-stats/common/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Ops/localNet/filecoin-network-stats/common/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ops/localNet/filecoin-network-stats/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Ops/localNet/filecoin-network-stats/frontend/package.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,7 +24,7 @@
         <entry file="file://$PROJECT_DIR$/Research/PoSt.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="760">
+              <first_editor relative-caret-position="275">
                 <caret line="55" column="45" selection-start-line="55" selection-start-column="45" selection-end-line="55" selection-end-column="45" />
               </first_editor>
               <second_editor />
@@ -26,33 +32,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Dev/rpcServer/selector.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Dev/localNet/localnetDeploy.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="534">
-                <caret line="117" selection-start-line="117" selection-end-line="117" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Dev/localNet/statsDeploy.md">
+        <entry file="file://$PROJECT_DIR$/Ops/localNet/statsDeploy.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="532">
-                <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+              <first_editor relative-caret-position="541">
+                <caret line="47" column="12" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
               </first_editor>
               <second_editor />
             </state>
@@ -60,11 +45,34 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Dev/rpcServer/serverSchema.md">
+        <entry file="file://$PROJECT_DIR$/Ops/localNet/filecoin-network-stats/common/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Ops/localNet/filecoin-network-stats/frontend/webpack.config.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Ops/localNet/filecoin-network-stats/backend/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="60" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Research/actorAnalyse/miner.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="95">
-                <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+              <first_editor relative-caret-position="190">
+                <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
               </first_editor>
               <second_editor />
             </state>
@@ -90,37 +98,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Dev/testing/testFuctions/TestAddpiece.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-              <folding>
-                <element signature="e#43#591#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="247">
-                <caret line="13" column="19" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="19" />
+                <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
               </first_editor>
               <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Dev/rpcClient/mySectorBuilder/rpcReadpiece.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-              <folding>
-                <element signature="e#25#43#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -141,10 +125,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/rpcServer/rpcPost.go" />
-        <option value="$PROJECT_DIR$/rpcServer/rpcAddpiece.go" />
-        <option value="$PROJECT_DIR$/TestAddpiece.go" />
-        <option value="$PROJECT_DIR$/TestPost.go" />
         <option value="$PROJECT_DIR$/SectorbuilderRational.go" />
         <option value="$PROJECT_DIR$/GenSectorbuilder.go" />
         <option value="$PROJECT_DIR$/rpcClient/GenSectorbuilder.go" />
@@ -191,7 +171,11 @@
         <option value="$PROJECT_DIR$/Dev/rpcServer/serverSchema.md" />
         <option value="$PROJECT_DIR$/Dev/testing/testFuctions/TestAddpiece.go" />
         <option value="$PROJECT_DIR$/Dev/localNet/statsDeploy.md.go" />
+        <option value="$PROJECT_DIR$/Research/actorAnalyse/miner.md" />
         <option value="$PROJECT_DIR$/Dev/localNet/statsDeploy.md" />
+        <option value="$PROJECT_DIR$/Ops/localNet/filecoin-network-stats/common/package.json" />
+        <option value="$PROJECT_DIR$/Ops/localNet/filecoin-network-stats/frontend/package.json" />
+        <option value="$PROJECT_DIR$/Ops/localNet/filecoin-network-stats/backend/package.json" />
       </list>
     </option>
   </component>
@@ -199,11 +183,12 @@
     <option name="directoryName" value="PNMbCRfB" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="965" />
-    <option name="y" value="124" />
+    <option name="x" value="1125" />
+    <option name="y" value="126" />
     <option name="width" value="1165" />
     <option name="height" value="1049" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -220,19 +205,28 @@
             <path>
               <item name="FC" type="b2602c69:ProjectViewProjectNode" />
               <item name="FC" type="462c0819:PsiDirectoryNode" />
-              <item name="Dev" type="462c0819:PsiDirectoryNode" />
+              <item name="Ops" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FC" type="b2602c69:ProjectViewProjectNode" />
               <item name="FC" type="462c0819:PsiDirectoryNode" />
-              <item name="Dev" type="462c0819:PsiDirectoryNode" />
+              <item name="Ops" type="462c0819:PsiDirectoryNode" />
               <item name="localNet" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FC" type="b2602c69:ProjectViewProjectNode" />
               <item name="FC" type="462c0819:PsiDirectoryNode" />
-              <item name="Dev" type="462c0819:PsiDirectoryNode" />
-              <item name="rpcClient" type="462c0819:PsiDirectoryNode" />
+              <item name="Ops" type="462c0819:PsiDirectoryNode" />
+              <item name="localNet" type="462c0819:PsiDirectoryNode" />
+              <item name="filecoin-network-stats" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FC" type="462c0819:PsiDirectoryNode" />
+              <item name="Ops" type="462c0819:PsiDirectoryNode" />
+              <item name="localNet" type="462c0819:PsiDirectoryNode" />
+              <item name="filecoin-network-stats" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -260,11 +254,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Ops" />
       <recent name="$PROJECT_DIR$/Dev/localNet" />
       <recent name="$PROJECT_DIR$/Dev/testing/testFuctions" />
       <recent name="$PROJECT_DIR$/Dev/testing" />
       <recent name="$PROJECT_DIR$/Reseach" />
-      <recent name="$PROJECT_DIR$/Purchasing" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Dev/rpcClient" />
@@ -288,9 +282,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21472053" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36635306" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -303,7 +296,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.300216" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.300216" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -316,41 +309,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/img/deals_off_chain/BlockReception.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ops/autoTools/tools/functions/autoRequestFIL.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dev/rpcClient/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#14#77#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Reseach/gpu.md" />
-    <entry file="file://$PROJECT_DIR$/Ops/autoTools/tools/remoteDeploy.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ops/autoTools/tools/functions/autoDeploy.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Ops/autoTools/main.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="662">
@@ -548,54 +506,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Research/PoSt.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="760">
-            <caret line="55" column="45" selection-start-line="55" selection-start-column="45" selection-end-line="55" selection-end-column="45" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../go-log/log/log.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dev/rpcClient/mySectorBuilder/rpcAddpiece.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dev/rpcClient/mySectorBuilder/rpcPost.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dev/testing/testFuctions/TestAddpiece.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-          <folding>
-            <element signature="e#43#591#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="247">
-            <caret line="13" column="19" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="19" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -623,7 +537,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dev/localNet/localnetDeploy.md">
+    <entry file="file://$PROJECT_DIR$/Ops/localNet/localnetDeploy.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="534">
@@ -633,11 +547,92 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Dev/localNet/statsDeploy.md">
+    <entry file="file://$PROJECT_DIR$/Dev/testing/testFuctions/TestAddpiece.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="80" column="21" selection-start-line="80" selection-start-column="21" selection-end-line="80" selection-end-column="21" />
+          <folding>
+            <element signature="e#43#591#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dev/rpcClient/mySectorBuilder/rpcPost.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dev/rpcClient/mySectorBuilder/rpcAddpiece.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Research/PoSt.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="532">
-            <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+          <first_editor relative-caret-position="275">
+            <caret line="55" column="45" selection-start-line="55" selection-start-column="45" selection-end-line="55" selection-end-column="45" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Research/actorAnalyse/miner.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="190">
+            <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="247">
+            <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ops/localNet/filecoin-network-stats/frontend/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="35" column="35" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ops/localNet/filecoin-network-stats/frontend/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ops/localNet/filecoin-network-stats/common/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ops/localNet/filecoin-network-stats/frontend/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ops/localNet/filecoin-network-stats/backend/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="60" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ops/localNet/statsDeploy.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="541">
+            <caret line="47" column="12" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
           </first_editor>
           <second_editor />
         </state>
