@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb44f3c4-cf6e-4e20-a51d-b315fda096b5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Dev/testing/test.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ohters/角色职责矩阵 .xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Ohters/角色职责矩阵 .xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Ops/localNet/filecoin-network-stats" beforeDir="false" afterPath="$PROJECT_DIR$/Ops/localNet/filecoin-network-stats" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Ops/localNet/filecoin-network-stats/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Ops/localNet/filecoin-network-stats/backend/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Ops/localNet/filecoin-network-stats/common/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Ops/localNet/filecoin-network-stats/common/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Ops/localNet/filecoin-network-stats/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Ops/localNet/filecoin-network-stats/frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ops/localNet/localnetDeploy.md" beforeDir="false" afterPath="$PROJECT_DIR$/Ops/localNet/localnetDeploy.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ops/localNet/statsDeploy.md" beforeDir="false" afterPath="$PROJECT_DIR$/Ops/localNet/statsDeploy.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Research/actorAnalyse/miner.md" beforeDir="false" afterPath="$PROJECT_DIR$/Research/actorAnalyse/miner.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -63,8 +58,20 @@
         <entry file="file://$PROJECT_DIR$/Research/actorAnalyse/miner.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="432">
-                <caret line="24" column="29" lean-forward="true" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+              <first_editor relative-caret-position="468">
+                <caret line="41" column="4" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Research/PoSt.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="551">
+                <caret line="55" column="45" selection-start-line="55" selection-start-column="45" selection-end-line="55" selection-end-column="45" />
               </first_editor>
               <second_editor />
             </state>
@@ -84,30 +91,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Dev/rpcClient/mySectorBuilder/rpcAddpiece.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Dev/rpcClient/mySectorBuilder/rpcPost.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor>
-                <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+              <first_editor relative-caret-position="234">
+                <caret line="13" column="19" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="19" />
               </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Research/codeParse/bblfsh.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
               <second_editor />
             </state>
           </provider>
@@ -194,7 +193,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="198" />
     <option name="y" value="31" />
-    <option name="width" value="793" />
+    <option name="width" value="1412" />
     <option name="height" value="1049" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -218,8 +217,18 @@
             <path>
               <item name="FC" type="b2602c69:ProjectViewProjectNode" />
               <item name="FC" type="462c0819:PsiDirectoryNode" />
-              <item name="Dev" type="462c0819:PsiDirectoryNode" />
-              <item name="testing" type="462c0819:PsiDirectoryNode" />
+              <item name="Ops" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FC" type="462c0819:PsiDirectoryNode" />
+              <item name="Research" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FC" type="462c0819:PsiDirectoryNode" />
+              <item name="Research" type="462c0819:PsiDirectoryNode" />
+              <item name="actorAnalyse" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -277,10 +286,10 @@
     </option>
   </component>
   <component name="ToolWindowManager">
-    <frame x="198" y="31" width="793" height="1049" extended-state="0" />
+    <frame x="198" y="31" width="1412" height="1049" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.04016064" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28330892" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -293,7 +302,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3021739" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3021739" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -384,14 +393,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Research/codeParse/bblfsh.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -518,16 +519,6 @@
     <entry file="file://$PROJECT_DIR$/Ops/localNet/filecoin-network-stats/frontend/tsconfig.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Research/PoSt.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1045">
-            <caret line="55" column="45" selection-start-line="55" selection-start-column="45" selection-end-line="55" selection-end-column="45" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/goland64.vmoptions" />
     <entry file="file://$PROJECT_DIR$/Ops/localNet/filecoin-network-stats/common/package.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -550,16 +541,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -606,11 +587,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="234">
+            <caret line="13" column="19" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="19" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Research/codeParse/bblfsh.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Research/PoSt.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="551">
+            <caret line="55" column="45" selection-start-line="55" selection-start-column="45" selection-end-line="55" selection-end-column="45" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Research/actorAnalyse/miner.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="432">
-            <caret line="24" column="29" lean-forward="true" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+          <first_editor relative-caret-position="468">
+            <caret line="41" column="4" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
           </first_editor>
           <second_editor />
         </state>
