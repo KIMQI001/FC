@@ -117,9 +117,10 @@ Block Explorer、Faucet 超链接地址修改
 npm run dev >frontend.log 2>&1 &
 
 # explorer
+```bash
 yarn install
 HOST=116.31.96.179 PORT=8082 REACT_APP_API_URL=http://116.31.96.179:3453 yarn start >explorer.log 2>&1 &
-
+```
 # faucet
 ./faucet -faucet-val=10000 -fil-api=116.31.96.179:3453 -fil-wallet=t1dvwn4stcb4vwvw45zttnj5pzuljmd3nu2junpty >faucet.log 2>&1 &
 
