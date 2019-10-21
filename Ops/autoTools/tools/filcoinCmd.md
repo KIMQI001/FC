@@ -35,4 +35,4 @@
 + dd if=/dev/urandom of=TradeFile bs=1M count=256
 + export CID='go-filecoin client import ./TradeFile'
 + go-filecoin client list-asks --enc=json | jq
-+ go-filecoin client propose-storage-deal <miner> $CID <ask> <duration> --allow
++ go-filecoin client propose-storage-deal <miner> $CID 0 2880 --allow-duplicates
