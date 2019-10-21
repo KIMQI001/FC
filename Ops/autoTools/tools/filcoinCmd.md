@@ -32,7 +32,8 @@
 + go-filecoin miner set-price --gas-price=0.001 --gas-limit=1000 0.0000000000000001 2880 --repodir=''
 
 ## store data
-+ dd if=/dev/urandom of=TradeFile bs=1M count=256
++ export MINER='go-filecoin mining address'
++ dd if=/dev/urandom of=TradeFile bs=1M count=244
 + export CID='go-filecoin client import ./TradeFile'
-+ go-filecoin client list-asks --enc=json | jq
-+ go-filecoin client propose-storage-deal <miner> $CID 0 2880 --allow-duplicates
++ go-filecoin client list-asks | grep $MINER
++ go-filecoin client propose-storage-deal $MINER $CID 0 2880 --allow-duplicates

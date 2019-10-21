@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb44f3c4-cf6e-4e20-a51d-b315fda096b5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lotus/deploy.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ohters/devTools/激活码.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Ohters/devTools/激活码.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/testing/test.md" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/testing/testResult.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Ops/autoTools/tools/filcoinCmd.md" beforeDir="false" afterPath="$PROJECT_DIR$/Ops/autoTools/tools/filcoinCmd.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Ops/localNet/filecoin-network-stats" beforeDir="false" afterPath="$PROJECT_DIR$/Ops/localNet/filecoin-network-stats" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Ops/localNet/filecoin-network-stats/backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Ops/localNet/filecoin-network-stats/backend/package.json" afterDir="false" />
@@ -19,11 +20,11 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ops/localNet/statsDeploy.md">
+        <entry file="file://$PROJECT_DIR$/Ops/autoTools/tools/filcoinCmd.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1080">
-                <caret line="60" column="4" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="4" />
+              <first_editor relative-caret-position="442">
+                <caret line="36" column="2" lean-forward="true" selection-start-line="36" selection-start-column="2" selection-end-line="36" selection-end-column="52" />
               </first_editor>
               <second_editor />
             </state>
@@ -31,34 +32,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ops/autoTools/tools/filcoinCmd.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="460">
-                <caret line="37" column="61" selection-start-line="37" selection-start-column="61" selection-end-line="37" selection-end-column="61" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Ohters/devTools/激活码.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="3701" selection-start-column="3701" selection-end-column="3701" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ops/localNet/localnetDeploy.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="2178">
-                <caret line="121" column="19" selection-start-line="121" selection-start-column="19" selection-end-line="121" selection-end-column="19" />
-              </first_editor>
-              <second_editor />
             </state>
           </provider>
         </entry>
@@ -88,7 +65,7 @@
         <entry file="file://$PROJECT_DIR$/Research/PoSt.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="990">
+              <first_editor relative-caret-position="831">
                 <caret line="55" column="45" selection-start-line="55" selection-start-column="45" selection-end-line="55" selection-end-column="45" />
               </first_editor>
               <second_editor />
@@ -96,13 +73,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Dev/testing/test.md">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lotus/deploy.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="90">
-                <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+              <first_editor relative-caret-position="395">
+                <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
               </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Dev/testing/testResult.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="180">
+                <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Purchasing/hardware.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
               <second_editor />
             </state>
           </provider>
@@ -113,8 +112,18 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="252">
-                <caret line="14" selection-start-line="14" selection-end-line="14" />
+                <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
               </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Research/gpu.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
               <second_editor />
             </state>
           </provider>
@@ -136,8 +145,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/hardware.md" />
-        <option value="$PROJECT_DIR$/rpcClient/mySectorBuilder/TestAddpiece.go" />
         <option value="$PROJECT_DIR$/rpcClient/mySectorBuilder/TestPost.go" />
         <option value="$PROJECT_DIR$/rpcClient/mySectorBuilder/rpcPost.go" />
         <option value="$PROJECT_DIR$/rpcClient/mySectorBuilder/rpcAddpiece.go" />
@@ -185,8 +192,10 @@
         <option value="$PROJECT_DIR$/Ops/localNet/localnetDeploy.md" />
         <option value="$PROJECT_DIR$/Dev/testing/test.md" />
         <option value="$PROJECT_DIR$/Research/actorAnalyse/miner.md" />
-        <option value="$PROJECT_DIR$/Ops/autoTools/tools/filcoinCmd.md" />
         <option value="$PROJECT_DIR$/Ohters/devTools/激活码.txt" />
+        <option value="$PROJECT_DIR$/Ops/autoTools/tools/filcoinCmd.md" />
+        <option value="$PROJECT_DIR$/Dev/testing/testResult.md" />
+        <option value="$PROJECT_DIR$/lotus/deploy.md" />
       </list>
     </option>
   </component>
@@ -215,29 +224,17 @@
             <path>
               <item name="FC" type="b2602c69:ProjectViewProjectNode" />
               <item name="FC" type="462c0819:PsiDirectoryNode" />
-              <item name="Ohters" type="462c0819:PsiDirectoryNode" />
+              <item name="Dev" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FC" type="b2602c69:ProjectViewProjectNode" />
               <item name="FC" type="462c0819:PsiDirectoryNode" />
-              <item name="Ohters" type="462c0819:PsiDirectoryNode" />
-              <item name="devTools" type="462c0819:PsiDirectoryNode" />
+              <item name="lotus" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FC" type="b2602c69:ProjectViewProjectNode" />
               <item name="FC" type="462c0819:PsiDirectoryNode" />
-              <item name="Ops" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FC" type="462c0819:PsiDirectoryNode" />
-              <item name="Ops" type="462c0819:PsiDirectoryNode" />
-              <item name="autoTools" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FC" type="462c0819:PsiDirectoryNode" />
-              <item name="Research" type="462c0819:PsiDirectoryNode" />
+              <item name="Purchasing" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -324,8 +321,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Reseach/clusterSchemaResearch.md" />
-    <entry file="file://$PROJECT_DIR$/Reseach/PoSt.md" />
     <entry file="file://$PROJECT_DIR$/img/deals_on_chain/ClientQuery.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -404,14 +399,6 @@
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Research/clusterSchemaResearch.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Research/gpu.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor />
@@ -591,23 +578,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Research/PoSt.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="990">
-            <caret line="55" column="45" selection-start-line="55" selection-start-column="45" selection-end-line="55" selection-end-column="45" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dev/testing/test.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="90">
-            <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/Ohters/devTools/激活码.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3701" selection-start-column="3701" selection-end-column="3701" />
         </state>
       </provider>
     </entry>
@@ -615,7 +589,25 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="252">
-            <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Research/gpu.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Research/PoSt.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="831">
+            <caret line="55" column="45" selection-start-line="55" selection-start-column="45" selection-end-line="55" selection-end-column="45" />
           </first_editor>
           <second_editor />
         </state>
@@ -624,17 +616,38 @@
     <entry file="file://$PROJECT_DIR$/Ops/autoTools/tools/filcoinCmd.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="460">
-            <caret line="37" column="61" selection-start-line="37" selection-start-column="61" selection-end-line="37" selection-end-column="61" />
+          <first_editor relative-caret-position="442">
+            <caret line="36" column="2" lean-forward="true" selection-start-line="36" selection-start-column="2" selection-end-line="36" selection-end-column="52" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ohters/devTools/激活码.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="3701" selection-start-column="3701" selection-end-column="3701" />
+    <entry file="file://$PROJECT_DIR$/Purchasing/hardware.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dev/testing/testResult.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="180">
+            <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lotus/deploy.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="395">
+            <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
