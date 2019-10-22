@@ -17,7 +17,8 @@
     lotus wallet new bls
     
     
-    
+go to https://lotus-metrics.kittyhawk.wtf/ check height
+
 go to https://lotus-faucet.kittyhawk.wtf/ create miner
     
     lotus-storage-miner run
