@@ -36,6 +36,8 @@ go to https://lotus-faucet.kittyhawk.wtf/ create miner
 ### Current schema
 
     lotus-storage-miner store-garbage
+    //每两个16.8M*2 耗时2+min （i7-8700 12核）
+    //一个小时大概1000M
     
 ### Pond solution
 
