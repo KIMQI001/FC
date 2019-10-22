@@ -1,0 +1,6 @@
+digraph Const{
+Const->constants_rs;
+constants_rs->NUM_SEAL_WORKERS;
+Const->proofs_go;
+proofs_go->SinglePartitionProofLen;
+}

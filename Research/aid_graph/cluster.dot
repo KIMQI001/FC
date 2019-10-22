@@ -1,0 +1,4 @@
+digraph cluster{
+
+stagingSector->stagedSector->seal->{proof;sealedSector}
+}

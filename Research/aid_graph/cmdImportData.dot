@@ -1,0 +1,15 @@
+digraph import{
+
+cmdImportData[style=filled;color=yellow];
+cid_link_Qm[style=filled;color=yellow];
+file_path->cmdImportData->DAGImportData->ipld_node->cid_link_Qm->propsal;
+propsal->decode_cid->data_link->ProposeStorageDeal->resp->Emit;
+ProposeStorageDeal->ProposeDeal->proposal
+
+
+response->{state;message;DealID;ProofInfo;Sianature};
+ProofInfo->{SectorID;CommitmentMessage_cid;pieceInclusionProof};
+DealID->proposal->{PieceRef_cid;ask_store_size;TotalPrice;Duration;MinerAddrs;paymentInfo};
+paymentInfo->{PayChActor;Payer;Channel;ChannelMsgCid;vouchers};
+}
+

@@ -1,0 +1,5 @@
+digraph IPFS{
+
+KAD->BitSwap;
+BitSwap->GitObject;
+}

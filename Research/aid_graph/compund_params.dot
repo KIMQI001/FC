@@ -1,0 +1,9 @@
+digraph ComParms{
+sealedSector;
+ReplicaID;
+proverID->ReplicaID;
+sectorID->ReplicaID;
+comm_r_star;
+all_comm_r->comm_r_star;
+ReplicaID->comm_r_star;
+}

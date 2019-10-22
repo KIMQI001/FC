@@ -1,0 +1,11 @@
+digraph trade{
+
+Message[style=filled;color=pink]
+{vmctx;targetAddrs;blockHeight}->createChannel;
+payerAddrs->From;
+{Value_amount;From}->Message;
+{IsFromAccountActor;Charge;Storage;Message}->vmctx;
+createChannel->ChannelID;
+ChannelID->paymentChannel;
+
+}

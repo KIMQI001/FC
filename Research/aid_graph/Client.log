@@ -1,0 +1,127 @@
+Storage Client:
++clientPorcelainAPI
+
+
++Client struct
+
+
++func NewClient
+
+// 方法2：交易请求
++func (smc *Client) ProposeDeal
+
+ //miner的PID
+ MinerGetPeerID
+
+ //ping miner
+ PingMinerWithTimeout
+
+ //获得文件大小
+ DAGGetFileSize
+
+ //获得矿工扇区大小
+ MinerGetSectorSize
+
+ //获得每个扇区的可用大小
+ GetMaxUserBytesPerStagedSector
+
+ //获得miner的ASK信息
+ MinerGetAsk
+
+ //区块高度
+ ChainBlockHeight
+
+ //发送者address
+ fromAddress
+
+ //minerOwner
+ minerOwner
+
+ // 设置proposal信息
+ storagedeal.Proposal{
+	data.cid
+	size
+	totalPrice
+	duration
+	miner
+ }
+
+
+ // proposal是否允许有副本
+ allowProposalDuplicates
+
+
+ // 检查是否自己在和自己做交易
+ isMakeDealWithSelf
+
+ // 创立payment信息
+ createPayment{
+	fromAddress
+	minerOwner
+	price.MulBigInt
+	duration
+	minerAddress
+	commp
+	pymentInterval
+	ChannelExpiry
+	GasPrice
+	GasLimit
+ }
+
+ // 给proseal签名
+ signedProposal
+
+ // 设置response
+ storagedeal.Response
+
+ //发送proposal
+ RrotocolRequestFinc(makeDealProtocol,pid,signedProposal,Response)
+
+ // 返回response
+ return response
+
+
+//方法3：记录Response
++func recordResponse
+
+ //将proposal转换成Cid
+ proposalToCid
+
+ //检查本地proposalCid是否和Response的proposalCid相等
+ proposalCid.Equal(resp.cid)
+
+ //获得交易信息
+ DealGet
+
+ //记录交易响应进交易信息
+ return DealPut{
+ &storagedeal.Deal{
+ miner
+ proposal
+ response
+ }}
+
+
+//方法4：检查Response
++func checkDealResponse
+
+ //返回storagedeal.Deal的状态
+ switch resp.State{Rejected;Failed;Accepted}
+
+
+//方法5：获取proposal的miner
++func minerForProposal
+ 
+ //返回交易的miner
+ return storageDeal.Miner
+
+//方法6：查询Deal
++func QueryDeal
+
+ //获得miner的地址
+ mineraddr=minerForProposal
+
+ //获得miner的PID
+ minerGetPeerID
+
+ //发起

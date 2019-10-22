@@ -1,0 +1,13 @@
+digraph state{
+state->ownerAddrs;
+state->peerId;
+state->pledge;
+state->collateral;
+state->askset;
+state->nextaskid;
+state->sectorCommits;
+state->lastUsedSectorID;
+state->ProvingPeriodStart;
+state->lastPost;
+state->power;
+}

@@ -1,0 +1,11 @@
+digraph SectorID {
+	graph [bb="0,0,252.18,108"];
+	node [label="\N"];
+	"map[String]types.Commitments"	 [height=0.5,
+		pos="126.09,90",
+		width=3.5025];
+	SectorSet	 [height=0.5,
+		pos="126.09,18",
+		width=1.2277];
+	"map[String]types.Commitments" -> SectorSet	 [pos="e,126.09,36.413 126.09,71.831 126.09,64.131 126.09,54.974 126.09,46.417"];
+}
