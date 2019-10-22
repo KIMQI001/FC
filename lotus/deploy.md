@@ -28,10 +28,15 @@ go to https://lotus-faucet.kittyhawk.wtf/ create miner
 
 ### Make a deal
     
-    dd if=/dev/urandom of=TradeFile bs=1M count=244
+    dd if=/dev/urandom of=TradeFile bs=100KB count=166
     lotus client import ./TradeFile
     lotus client query-ask <miner>
-    lotus client deal <Data CID> <miner> 2210565980160 2880 
+    lotus client deal <Data CID> <miner> 50000000 2880 
+    
+### Current schema
+
+    lotus-storage-miner store-garbage
+    
 ### Pond solution
 
     进入sudo
