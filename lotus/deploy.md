@@ -24,7 +24,12 @@ go to https://lotus-faucet.kittyhawk.wtf/ create miner
     lotus-storage-miner info
     lotus-storage-miner store-garbage
     
+
+### Make a deal
     
+    lotus client import ./hello.txt
+    lotus client query-ask <miner>
+    lotus client deal <Data CID> <miner> <price> <duration> 
 ### Pond solution
 
     进入sudo

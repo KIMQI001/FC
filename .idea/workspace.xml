@@ -2,59 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb44f3c4-cf6e-4e20-a51d-b315fda096b5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Research/aid_graph/.API.dot.swp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Research/aid_graph/.commSectMessage.dot.swp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Research/aid_graph/.info.txt.swp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Research/aid_graph/.seal.dot.swp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Research/aid_graph/API.dot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Research/aid_graph/API.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Research/aid_graph/Client.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Research/aid_graph/IPFS.dot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Research/aid_graph/PoRep.dot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Research/aid_graph/PoRep_Logic_rs.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Research/aid_graph/Rep.dot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Research/aid_graph/Sectortree.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Research/aid_graph/ZigZag_Alth.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Research/aid_graph/cluster.dot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Research/aid_graph/cluster.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Research/aid_graph/cmdImportData.dot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Research/aid_graph/cmdImportData.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Research/aid_graph/commSectMessage.dot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Research/aid_graph/commSectMessage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Research/aid_graph/compund_params.dot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Research/aid_graph/compund_params.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Research/aid_graph/fn_seal_rs.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Research/aid_graph/golandactivation.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Research/aid_graph/importantConst.dot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Research/aid_graph/importantConst.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Research/aid_graph/info.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Research/aid_graph/layer_vrg_vde.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Research/aid_graph/message.dot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Research/aid_graph/message.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Research/aid_graph/miner.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Research/aid_graph/minerState.dot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Research/aid_graph/minerState.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Research/aid_graph/node.dot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Research/aid_graph/node.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Research/aid_graph/nodeInfo.dot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Research/aid_graph/nodeInfo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Research/aid_graph/path.dot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Research/aid_graph/path.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Research/aid_graph/paths.dot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Research/aid_graph/plan.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Research/aid_graph/proof.dot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Research/aid_graph/proof.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Research/aid_graph/seal.dot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Research/aid_graph/seal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Research/aid_graph/sectorBuilder.dot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Research/aid_graph/sectorSet.dot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Research/aid_graph/sectorSet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Research/aid_graph/totle_logic.dot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Research/aid_graph/totle_logic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Research/aid_graph/trade.dot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Research/aid_graph/trade.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Research/aid_graph/verify.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Research/aid_graph/總PoRep.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lotus/deploy.md" beforeDir="false" afterPath="$PROJECT_DIR$/lotus/deploy.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -73,12 +21,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lotus/deploy.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="395">
-                <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+              <first_editor relative-caret-position="486">
+                <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
               </first_editor>
               <second_editor />
             </state>
@@ -107,7 +55,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -194,8 +142,8 @@
         <option value="$PROJECT_DIR$/Research/actorAnalyse/miner.md" />
         <option value="$PROJECT_DIR$/Ops/autoTools/tools/filcoinCmd.md" />
         <option value="$PROJECT_DIR$/Dev/testing/testResult.md" />
-        <option value="$PROJECT_DIR$/lotus/deploy.md" />
         <option value="$PROJECT_DIR$/Ohters/devTools/激活码.txt" />
+        <option value="$PROJECT_DIR$/lotus/deploy.md" />
       </list>
     </option>
   </component>
@@ -224,38 +172,7 @@
             <path>
               <item name="FC" type="b2602c69:ProjectViewProjectNode" />
               <item name="FC" type="462c0819:PsiDirectoryNode" />
-              <item name="Dev" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FC" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FC" type="462c0819:PsiDirectoryNode" />
               <item name="lotus" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FC" type="462c0819:PsiDirectoryNode" />
-              <item name="Ohters" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FC" type="462c0819:PsiDirectoryNode" />
-              <item name="Ohters" type="462c0819:PsiDirectoryNode" />
-              <item name="devTools" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FC" type="462c0819:PsiDirectoryNode" />
-              <item name="Purchasing" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FC" type="462c0819:PsiDirectoryNode" />
-              <item name="Research" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -286,8 +203,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/img" />
       <recent name="$PROJECT_DIR$/Research" />
+      <recent name="$PROJECT_DIR$/img" />
       <recent name="$PROJECT_DIR$/Ohters/devTools" />
       <recent name="$PROJECT_DIR$/Ohters" />
       <recent name="$PROJECT_DIR$/Dev/rpcClient" />
@@ -314,6 +231,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22634201" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -594,16 +512,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lotus/deploy.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="395">
-            <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Ohters/devTools/激活码.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -636,6 +544,16 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="234">
             <caret line="13" column="19" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="19" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lotus/deploy.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="486">
+            <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
           </first_editor>
           <second_editor />
         </state>
