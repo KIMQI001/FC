@@ -31,7 +31,7 @@ go to https://lotus-faucet.kittyhawk.wtf/ create miner
     dd if=/dev/urandom of=TradeFile bs=1M count=244
     lotus client import ./TradeFile
     lotus client query-ask <miner>
-    lotus client deal <Data CID> <miner> <price> <duration> 
+    lotus client deal <Data CID> <miner> 2210565980160 2880 
 ### Pond solution
 
     进入sudo
