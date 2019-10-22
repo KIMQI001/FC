@@ -1,4 +1,0 @@
-My peer ID is QmYRKZ7G7E6jkLRYtAhqsqwezx5gGfwJha27wkDTZatr5x
-Swarm listening on: /ip4/127.0.0.1/tcp/6000
-Swarm listening on: /ip4/192.168.151.64/tcp/6000
-

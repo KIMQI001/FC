@@ -1,7 +1,0 @@
-digraph seal{
-attachDealToSector->dealAwaitingSeal_sealedSectorsInfo_by_SectorID->{ok;not_ok};
-ok->{succeeded;failed};
-not_ok->dealsAwatingSeal_secortsToDeals_by_sectorID->{_ok;_not_ok};
-_ok->append_deals_dealCid;
-_not_ok->cid_Cid_dealCid;
-}
