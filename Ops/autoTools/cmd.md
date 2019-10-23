@@ -1,19 +1,8 @@
 # filecoin command(daily)
 ## running Filecoin
 + rm -rf ~/.filecoin
-+ go-filecoin init --devnet-user --genesisfile=https://genesis.user.kittyhawk.wtf/genesis.car --repodir=''
-    
-###
-    //修改config
-    + vim ~/.filecoin/config.json
-    + i
-    + Replace("address": "/ip4/127.0.0.1/tcp/3453")("address": "/ip4/127.0.0.1/tcp/3454")
-    + Replace("address": "/ip4/0.0.0.0/tcp/6000")("address": "/ip4/0.0.0.0/tcp/6001")
-    + Esc
-    + :wq
-
-
-+ go-filecoin daemon --repodir=''
++ go-filecoin init --devnet-user --genesisfile=https://genesis.user.kittyhawk.wtf/genesis.car --repodir=''    
++ go-filecoin daemon --cmdapiaddr=/ip4/127.0.0.1/tcp/3454 --swarmlisten=/ip4/127.0.0.1/tcp/6001 --repodir=''
 + go-filecoin config heartbeat.nickname "Pizzanode" --repodir=''
 + go-filecoin config heartbeat.beatTarget "/dns4/backend-stats.kittyhawk.wtf/tcp/8080/ipfs/QmUWmZnpZb6xFryNDeNU7KcJ1Af5oHy7fB9npU67sseEjR" --repodir=''
 
