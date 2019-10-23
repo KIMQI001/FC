@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
+export http_proxy="http://127.0.0.1:12333"
+export https_proxy="http://127.0.0.1:12333"
+
 mkdir -p ${GOPATH}/src/github.com/filecoin-project
 git clone https://github.com/filecoin-project/go-filecoin.git ${GOPATH}/src/github.com/filecoin-project/go-filecoin
 wait
