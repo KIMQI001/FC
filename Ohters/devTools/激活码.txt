@@ -3,3 +3,5 @@ K6IXATEF43-eyJsaWNlbnNlSWQiOiJLNklYQVRFRjQzIiwibGljZW5zZWVOYW1lIjoi5o6I5p2D5Luj5
 Proxy: https://goproxy.io
 
 ssr://MjAyLjE4Mi4xMTYuMzE6MTk4NDQ6YXV0aF9zaGExX3Y0OmFlcy0yNTYtY2ZiOnBsYWluOlUzbHpkR1Z0TnprM09DTmUvP3Byb3RvcGFyYW09TkRNd01EcDVkSEpzYjIxcVNqRm5NZyZyZW1hcmtzPWRuQnpMV1JxTFRFd01EQkg
+
+pycharm active server : http://idea.imsxm.com
