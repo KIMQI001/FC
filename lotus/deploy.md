@@ -7,6 +7,8 @@
     
     git clone https://github.com/filecoin-project/lotus.git
     cd lotus/
+    vim lotus-storage-miner/main.go 
+    (replace FlagStorageRepo/value to the storage location u want) 
     make
     sudo make install 
     
@@ -15,10 +17,11 @@
     
     watch lotus sync status
     lotus wallet new bls
+    (height status：sync persistence complete)
     
     
 go to https://lotus-metrics.kittyhawk.wtf/ check height
-
+    
 go to https://lotus-faucet.kittyhawk.wtf/ create miner
     
     lotus-storage-miner run
@@ -34,7 +37,8 @@ go to https://lotus-faucet.kittyhawk.wtf/ create miner
     lotus client deal <Data CID> <miner> 50000000 2880 
     
 ### Current schema
-
+    
+    use the storagegarbage.sh to store 16.8M*14400=236.25G
     lotus-storage-miner store-garbage
     //每两个16.8M*2 耗时2+min （i7-8700 12核）
     //一个小时大概1000M,一天约20G
@@ -50,3 +54,4 @@ go to https://lotus-faucet.kittyhawk.wtf/ create miner
     
     退出sudo
     make pond
+    ./pond run &
