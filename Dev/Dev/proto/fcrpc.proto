@@ -2,8 +2,8 @@ syntax = "proto3";
 package proto;
 
 service DMineService{
-    // request proof ,
-    rpc Proof (ProofReq) returns (ProofRes){}
+    // request proof
+    rpc GenProof (ProofReq) returns (ProofRes){}
     rpc ReadPiece (ReadPieceReq) returns (ReadPieceRes){}
 }
 

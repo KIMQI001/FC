@@ -7,8 +7,9 @@ import (
 
 func main() {
 	// Register
+	// TODO:we can Get a genSectorBuilderRequest to rpc gen sb
+	//miner:=mySectorBuilder.Getminer()
 
-	// Get a genSectorBuilderRequest
 	miner:="t2c5rchhtyscadk7hduwma45jx44w4ercw7nzh3vy"
 	dir:="/home/zoe/files/sectors"
 	lastId:=0

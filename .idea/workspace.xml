@@ -2,17 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb44f3c4-cf6e-4e20-a51d-b315fda096b5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Ops/localNet/statsInit.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dev/Dev/proto/fcrpc.pb.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dev/Dev/proto/register.pb.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dev/Dev/rpcClient/rpcGetminer.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dev/Dev/rpcClient/rpcSbRational.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dev/Dev/rpcServer/mySectorBuilder/rpcGenProof.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ops/Deploy.md" beforeDir="false" afterPath="$PROJECT_DIR$/Ops/Deploy.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ops/localNet/localnetDeploy.md" beforeDir="false" afterPath="$PROJECT_DIR$/Ops/localNet/localnetDeploy.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ops/localNet/statsDeploy.md" beforeDir="false" afterPath="$PROJECT_DIR$/Ops/localNet/statsDeploy.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ops/scripts/deploy.sh" beforeDir="false" afterPath="$PROJECT_DIR$/Ops/scripts/deploy.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ops/scripts/getFIL.sh" beforeDir="false" afterPath="$PROJECT_DIR$/Ops/scripts/getFIL.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ops/scripts/init.sh" beforeDir="false" afterPath="$PROJECT_DIR$/Ops/scripts/init.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ops/scripts/lanch.sh" beforeDir="false" afterPath="$PROJECT_DIR$/Ops/scripts/lanch.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ops/scripts/miningStart.sh" beforeDir="false" afterPath="$PROJECT_DIR$/Ops/scripts/miningStart.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ops/scripts/trade.sh" beforeDir="false" afterPath="$PROJECT_DIR$/Ops/scripts/trade.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/proto/fcrpc.proto" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/proto/fcrpc.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/proto/register.proto" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/proto/register.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/rpcServer/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/rpcServer/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/rpcServer/mySectorBuilder/SectorbuilderRational.go" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/rpcServer/mySectorBuilder/SectorbuilderRational.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/rpcServer/mySectorBuilder/rpcGetminer.go" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/rpcServer/mySectorBuilder/rpcGetminer.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +45,7 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.vendoring.notification.had.been.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Dev" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -58,19 +58,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Dev" />
+      <recent name="$PROJECT_DIR$/Ops/scripts" />
+      <recent name="$PROJECT_DIR$/Research" />
+      <recent name="$PROJECT_DIR$/img" />
+      <recent name="$PROJECT_DIR$/Ohters/devTools" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Ohters/member" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/Ops/autoTools" />
       <recent name="$PROJECT_DIR$/Ops" />
       <recent name="$PROJECT_DIR$/Dev/localNet" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Ops/scripts" />
-      <recent name="$PROJECT_DIR$/Research" />
-      <recent name="$PROJECT_DIR$/img" />
-      <recent name="$PROJECT_DIR$/Ohters/devTools" />
-      <recent name="$PROJECT_DIR$/Ohters" />
     </key>
   </component>
   <component name="RunDashboard">
