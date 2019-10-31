@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb44f3c4-cf6e-4e20-a51d-b315fda096b5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Dev/Dev/proto/fcrpc.pb.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dev/Dev/proto/register.pb.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dev/Dev/rpcClient/rpcGetminer.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dev/Dev/rpcClient/rpcSbRational.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dev/Dev/rpcServer/mySectorBuilder/rpcGenProof.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dev/Dev/rpcClient/ClientSchema.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dev/Dev/rpcServer/serverSchema.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dev/Dev/proto/fcrpc.proto" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/proto/fcrpc.proto" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dev/Dev/proto/register.proto" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/proto/register.proto" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dev/Dev/rpcServer/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/rpcServer/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dev/Dev/rpcServer/mySectorBuilder/SectorbuilderRational.go" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/rpcServer/mySectorBuilder/SectorbuilderRational.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dev/Dev/rpcServer/mySectorBuilder/rpcGetminer.go" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/rpcServer/mySectorBuilder/rpcGetminer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/rpcClient/rpcSbRational.go" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/rpcClient/rpcSbRational.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dev/Dev/rpcServer/mySectorBuilder/rpcGenProof.go" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/rpcServer/mySectorBuilder/rpcGenProof.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

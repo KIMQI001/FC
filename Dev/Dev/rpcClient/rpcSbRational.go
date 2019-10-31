@@ -11,3 +11,6 @@ func RpcPoSt()  {
 func RpcReadPiece()  {
 	
 }
+func RpcGetMeta()  {
+	
+}

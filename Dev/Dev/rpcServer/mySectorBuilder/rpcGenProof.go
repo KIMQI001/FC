@@ -33,6 +33,11 @@ func (s *server)GenProof(ctx context.Context, in *proto.ProofReq) (*proto.ProofR
 	return &proto.ProofRes{}, nil
 }
 
+func (s *server)GetMetaData(ctx context.Context, in *proto.ProofReq) (*proto.ProofRes, error)  {
+	GetSbPtr().SectorSealResults()
+	return &proto.ProofRes{}, nil
+}
+
 func (s *server)ReadPiece(ctx context.Context, in *proto.ReadPieceReq) (*proto.ReadPieceRes, error) {
 
 	return &proto.ReadPieceRes{}, nil

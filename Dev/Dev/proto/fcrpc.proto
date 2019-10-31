@@ -4,6 +4,7 @@ package proto;
 service DMineService{
     // request proof
     rpc GenProof (ProofReq) returns (ProofRes){}
+    rpc GetMetaData (GetMetaReq) returns (GetMetaRes){}
     rpc ReadPiece (ReadPieceReq) returns (ReadPieceRes){}
 }
 
@@ -29,6 +30,14 @@ message PostReq{
 message PostRes{
 
 }
+
+message GetMetaReq{
+
+}
+message GetMetaRes{
+
+}
+
 message ReadPieceReq{
 
 }
