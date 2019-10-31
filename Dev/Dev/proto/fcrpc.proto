@@ -1,0 +1,37 @@
+syntax = "proto3";
+package proto;
+
+service DMineService{
+    // request proof ,
+    rpc Proof (ProofReq) returns (ProofRes){}
+    rpc ReadPiece (ReadPieceReq) returns (ReadPieceRes){}
+}
+
+message ProofReq{
+    string Title = 1;
+    repeated AddpieceReq AddPieceReq = 2;
+    repeated AddpieceRes AddPieceRes = 3;
+    repeated PostReq PostReq = 4;
+    repeated PostRes PostRes = 5;
+}
+message ProofRes{
+
+}
+message AddpieceReq{
+
+}
+message AddpieceRes{
+
+}
+message PostReq{
+
+}
+message PostRes{
+
+}
+message ReadPieceReq{
+
+}
+message ReadPieceRes{
+
+}

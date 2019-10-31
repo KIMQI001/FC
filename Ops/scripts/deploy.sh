@@ -8,7 +8,7 @@ wait
 cd $GOPATH/src/github.com/filecoin-project/go-filecoin
 git fetch origin
 wait
-git checkout "${1}"
+git checkout -b "${1}"
 git submodule update --init --recursive
 wait
 FILECOIN_USE_PRECOMPILED_RUST_PROOFS=true go run ./build deps

@@ -7,7 +7,8 @@
     分别修改 `common/frontend/backend package.json`中的`"bignumber.js": "^8.0.1"`    
 
 2.安装
-
+        
+        //super user
         cd common
         npm i 
         npm run build

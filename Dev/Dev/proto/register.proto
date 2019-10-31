@@ -1,0 +1,14 @@
+syntax = "proto3";
+package proto;
+
+service RegisterService {
+    // get miner from the main node
+    rpc GetMiner (GetMinerReq) returns (GetMinerRes) {}
+}
+
+message GetMinerReq{
+
+}
+message GetMinerRes{
+
+}

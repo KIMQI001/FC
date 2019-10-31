@@ -1,5 +1,6 @@
 # FC的部署
-
+    
+    git clone https://github.com/filecoin-project/go-filecoin.git
     cd $GOPATH/src/github.com/filecoin-project/go-filecoin
     git fetch origin
     git checkout -b 0.5.7
