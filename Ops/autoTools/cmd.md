@@ -7,7 +7,7 @@
 + go-filecoin config heartbeat.beatTarget "/dns4/backend-stats.kittyhawk.wtf/tcp/8080/ipfs/QmUWmZnpZb6xFryNDeNU7KcJ1Af5oHy7fB9npU67sseEjR" --repodir='$(repodir)'
 
 ## wait for chain sync
-+ watch -n 10 'go-filecoin show block $(go-filecoin chain head --repodir='$(repodir)' | head -n 1) --repodir='$(repodir)''
++ watch -n 10 'go-filecoin show block $(go-filecoin chain head --repodir="$repo" | head -n 1) --repodir="$repo"'
 
 ## get FIL from the Filecoin faucet
 + export WALLET_ADDR=`go-filecoin address ls --repodir=''`

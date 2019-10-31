@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb44f3c4-cf6e-4e20-a51d-b315fda096b5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Dev/Dev/rpcClient/ClientSchema.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dev/Dev/rpcServer/serverSchema.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dev/Dev/proto/fcrpc.proto" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/proto/fcrpc.proto" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dev/Dev/rpcClient/rpcSbRational.go" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/rpcClient/rpcSbRational.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dev/Dev/rpcServer/mySectorBuilder/rpcGenProof.go" beforeDir="false" afterPath="$PROJECT_DIR$/Dev/Dev/rpcServer/mySectorBuilder/rpcGenProof.go" afterDir="false" />
-    </list>
+    <list default="true" id="eb44f3c4-cf6e-4e20-a51d-b315fda096b5" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +33,7 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.vendoring.notification.had.been.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Dev" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
