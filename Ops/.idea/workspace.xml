@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b05b9bc6-c783-452b-af9c-ce0edef3c71c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../NewDev/scheme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/autoTools/tools/ssh.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/addpiece.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../newArch/pblm.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dev/proto/build.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dev/proto/fcrpc.pb.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dev/proto/fcrpc.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dev/proto/register.pb.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dev/proto/register.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dev/rpcClient/ClientSchema.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dev/rpcClient/rpcGetminer.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dev/rpcClient/rpcSbRational.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dev/rpcClient/selector.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dev/rpcServer/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dev/rpcServer/mySectorBuilder/GenSectorbuilder.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dev/rpcServer/mySectorBuilder/SectorbuilderRational.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dev/rpcServer/mySectorBuilder/rpcGenProof.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dev/rpcServer/mySectorBuilder/rpcGetminer.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dev/rpcServer/mySectorBuilder/rpcReadpiece.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dev/rpcServer/serverSchema.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dev/testing/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dev/testing/testFuctions/TestAddpiece.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dev/testing/testFuctions/TestPost.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Dev/testing/testResult.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Deploy.md" beforeDir="false" afterPath="$PROJECT_DIR$/Deploy.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/deploy.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/deploy.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/lanch.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/lanch.sh" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GOROOT" path="/usr/lib/go-1.12" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="GHdtKPbW" />
+  </component>
+  <component name="ProjectId" id="1Th4VVxWk1HS30lwA1elwcChHb0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
